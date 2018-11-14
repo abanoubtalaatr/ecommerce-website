@@ -1,0 +1,280 @@
+body{
+    padding: 0px;
+    margin:0px;
+}
+html{
+    margin-top: -60px;
+}
+/*class navbar*/
+.UnListStyle{
+    list-style: none;
+    margin: 0;
+    padding: 0;   
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    
+}
+.navbar{
+    background: black;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.container .all_links{
+    width: 55%;
+    display: inline-block;
+    clear: right;
+   
+
+}
+.container .all_links ul li{
+    float: left;
+    padding: 15px;
+    color: white;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.container .all_links ul li a{
+    text-decoration: none;
+    color: white;
+}
+ /*this belong member page*/
+.text_center{
+    text-align: center;
+}
+.brand a{
+  text-decoration: none;
+  color: white;
+}
+.brand {
+
+     display: inline-block;
+     float: left;
+     width: 26%;
+     font-size: 22px;
+     list-style: none;
+     padding: 15px;
+     color:white;
+     text-transform: capitalize
+}
+/*This belong log in and sign up */
+.sign_or_login{
+     color: black;
+     background: none;
+
+    margin-top: 60px;
+    padding: 10px;
+    overflow: hidden;
+
+}  
+.contian{
+    float: right;
+}
+.contain button {
+    border: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 4px 24px;
+    border-radius: 4px;
+}
+.contain button:first-of-type{
+    margin-right: 10px;
+}
+
+/*This belong to categories page*/
+.row {
+    float: left;
+    display: inline-block;
+    overflow: hidden;
+    clear: both;
+    overflow:hidden;
+    width: 100%;
+    margin-top: 40px;
+
+}
+.itemBox{
+    width: 24%;
+    float: left;
+    margin-left: .5%;
+    margin-right: .5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    border-radius: 5px;
+    min-height: 300px;
+    background: gainsboro
+
+}
+.contain_image{
+  position: relative;
+  width:100%;
+  height: 200px;
+
+}
+.img_responsive{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-size: cover;
+
+}
+.description{
+    font-size: 20px;
+    text-align: start;
+    padding-left: 5px;
+   
+}
+.Name{
+    padding-left: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: green;
+}
+.sign_or_login{
+    color: black;
+    background: green;
+    margin-top: 60px;
+    padding: 10px;
+}
+/*this for log in form */
+.container .logIn,
+.container .signUp {
+    margin: auto;
+    width: 50%;
+    margin-top: 100px;
+}
+.container .logIn input,
+.container .signUp input{
+    display: block;
+    margin-top: 10px;
+    width: 95%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    color: #2b2ab4;
+    font-size: 15px;
+    margin-top: 22px;
+}
+.container .logIn input:last-of-type,
+.container .signUp input:last-of-type{
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.container .logIn input:last-of-type:hover,
+.container .signUp input:last-of-type:hover{
+    background: green;
+    color: black;
+}
+.container .logIn,
+.container .signUp{
+    background-image:url('http://localhost/ecommerce/images/abanoub.jpg');
+    background-size:cover;
+    overflow:hidden;
+    border-radius:5px;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+    border-radius: 8px;
+    padding: 30px 10px;
+
+}
+.container .logIn .contain-form,
+.cotainer .signUp .contain-form{
+ position: relative;
+ z-index: 4;
+
+}
+.container .logIn .overlay
+.container .signUp .overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    z-index: 2;
+    border-radius: 8px;
+}
+.a{
+    color: #404da7;
+    background: #c3d6c8;
+    width: 60px;
+    height: 52px;
+    text-align: center;
+    font-size: 43px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 21px;
+
+}
+ ::-webkit-input-placeholder{
+    color: #660666;
+    font-size: 16px;
+    font-weight: 100;
+   
+}
+.My_information{
+    margin-bottom: 20px;
+}
+.My_information .panel .panelHead,
+.My_ads .panel .panelHead,
+.My_comment .panel .panelHead{
+    padding: 10px;
+    font-size: 21px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    border-radius: 6px;
+}
+.My_information .panel .panelHead{
+    background: darkseagreen;
+    color: darkblue;
+}
+.My_information .panel .panelBody,
+.My_ads .panel .panelHead,
+.My_comment .panel .panelHead {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 100;
+    border-radius: 8px;
+    margin-top: 1px;
+}
+.My_information .panel .panelBody{
+    background: gainsboro;
+    color: darkblue;
+}
+.My_ads .panel .panelHead{
+    background: aqua;
+    color: black;
+}
+.My_ads .panel .panelBody {
+    overflow: hidden;
+    background: lightgreen;
+}
+.My_ads .panel .panelBody .itemBox{
+    margin-bottom: 10px;
+}
+.My_comment .panel .panelHead{
+    background: aquamarine;
+    margin-top: 20px;
+}
+.My_comment .panel .panelBody .itemBox{
+    margin-bottom: 0px;
+    min-height: 0px;
+}
+.chat{
+    float: right;
+    background: green;
+}

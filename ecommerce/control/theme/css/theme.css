@@ -1,0 +1,601 @@
+body{
+    background: #f4f4f4;
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration:none;
+}
+.logIn{ 
+    margin: auto;
+    margin-top: 100px;
+    width: 400px;
+  
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.logIn input{
+    display: block;
+    border-radius: 4px;
+    font-weight: 100;
+    font-size: 22px;
+    text-indent: 12px;
+    margin-top: 20px;
+    width: 100%;
+    background: #DBD2D2;
+    border: none;
+    height: 40px;
+}
+.logIn input[type='submit']{
+    background: green;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 8px;
+    width: 50%;
+    margin-left: 25%;
+    cursor: pointer;
+}
+/*class navbar*/
+.UnListStyle{
+    list-style: none;
+    margin: 0;
+    padding: 0;   
+}
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    
+}
+.navbar{
+    background: black;
+    margin: 0px;
+    padding: 0px;
+}
+.container .all_links{
+    width: 70%;
+    display: inline-block;
+    clear: right;
+}
+.container .all_links ul li{
+    float: left;
+    padding: 15px;
+    color: white;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.container .all_links ul li a{
+    text-decoration: none;
+    color: white;
+}
+ /*this belong member page*/
+.text_center{
+    text-align: center;
+}
+.contain{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+.form_member_page label{
+    float: left;
+    font-size: 22px;
+    margin-top: 15px;
+    width: 26%;
+    text-align: start;
+}
+.form_member_page input{
+    float: right;
+    width: 70%;
+    font-size: 20px;
+    text-indent: 10px;
+    margin-top: 10px;
+    clear: right;
+    border-radius: 4px;
+    border: none;
+    padding: 10px;
+    background:  white;
+}
+.form_member_page input:focus{
+    outline: none;
+    background: #579957;
+    color: black;
+}
+ ::-webkit-input-placeholder{
+    color: black;
+}
+.h1{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.submit{ 
+   width:23%;
+   float: left;
+   margin: auto;
+   margin-left:29%;
+   margin-top: 20px;
+   display: inline-block;
+}
+.submit input{
+   text-indent: 0px;
+   text-transform: capitalize;
+   cursor: pointer;
+   background: #0668a2;
+   position: relative;
+}
+/* this form manage page*/
+.Manage_page{
+   width: 80%;
+   margin: auto;
+   overflow: visible;
+}
+.Manage_page h1{
+        color: #827a7a;
+}
+.Manage_page table{
+    margin: auto;
+    width: 100%;
+    margin-bottom: 23px;
+    
+}
+.Manage_page table tr{
+    border: 1px solid red;
+}
+.Manage_page table tbody{
+        background: #e6e4e4;
+      
+}
+.Manage_page table td{
+    padding: 8px 21px;
+    font-size: 21px;
+    color: white;
+    text-transform: capitalize;
+}
+.Manage_page table ul li{
+    display: block;
+    margin: 10px;
+    background: #16630b;
+    padding: 6px;
+    border-radius: 4px;
+}
+.Manage_page table ul li:nth-of-type(2){
+    background: #d53636;
+}
+.Manage_page table ul li:nth-of-type(3){
+    background: #3498db;;
+}
+.Manage_page .special_tr{
+    padding: 8px 21px;
+    font-size: 21px;
+    background: black;
+    color: white;
+}
+.Manage_page table td a{
+    padding: 4px 20px;
+    border-radius: 5px;
+    color: white;
+}
+.Manage_page > a {
+    text-transform: capitalize;
+    font-size: 21px;
+    background: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.Manage_page > a i { 
+    font-size: 18px;
+    padding-right: 10px;
+}
+/*dashborad div */
+.dashbord{
+    overflow: hidden;
+    margin-top: 30px;
+    text-align: center;
+}
+.dashbord h1{
+    color: #4834d4;
+    margin-bottom:60px;
+}
+.dashbord .item{
+    width: 20%;
+    float: left;
+    font-size: 18px;
+    padding: 8px;
+    background: #E2DDDD;
+    border: 1px solid #DAD5D5;
+    border-radius: 3px;
+}
+.dashbord .item a{
+    color: white;
+    text-decoration: none;
+}
+.dashbord .item:first-of-type {
+    background: #1abc9c;
+}
+.dashbord .item:nth-of-type(2) {
+    background: #16a085;
+}
+.dashbord .item:nth-of-type(3){
+    background: #2980b9;
+}
+.dashbord .item:nth-of-type(4){
+    background: #3498db;
+}
+.dashbord .item:not(:last-of-type){
+    margin-right: 4%
+}
+.dashbord .item span{
+    display: block;
+    font-size: 30px;
+}
+.dashbord .panel{
+    width: 45%;
+    float: left;
+    display: inline-block;
+    margin-top: 38px;
+    overflow: hidden;
+    border: none;
+    text-transform: capitalize;
+}
+.dashbord .panel:first-of-type{
+    float: left;
+    margin-right: 5%;
+}
+.dashbord .panel:nth-of-type(2){
+    float: right;
+    margin-left: 5%;
+}
+.dashbord .panel .panelHead{
+    background: #e6e6e6;
+    overflow: hidden;
+    padding: 10px;
+    font-size: 20px;
+}
+.dashbord .panel .panelHead i{
+    float: left;
+    margin-left: 6px;
+    font-size: 22px;
+    padding: 1px;
+}
+.dashbord .panel .panelHead span{
+    float: left;
+    margin-left: 8px;
+}
+.dashbord .panel .panelBody {
+    background: white;
+    text-align: start;
+    overflow: hidden;
+    
+}
+.dashbord .panel .panelBody span{
+    display: block;
+    margin-top: -6px;
+    padding: 6px 10px;
+    margin-right: 5px;
+    border-radius: 4px;
+    color: white;
+}
+.dashbord .panel .panelBody li:first-of-type{
+    background: #b4b3b5;
+}
+.dashbord .panel .panelBody li:nth-of-type(odd){
+    background: #b4b3b5;
+}
+.dashbord .panel .panelBody li:nth-of-type(even){
+    background: white;
+    color: black;
+}
+.dashbord .panel .panelBody li{
+    padding: 11px 0px 11px 10px;
+}
+/*  The categories */
+.abanoub{
+    height: 40px;
+    margin-left: 26.5%;
+    margin-top: -8px;
+}
+.abanoub table tr {
+    display: block;
+    float: left;
+    margin-right: 19px;
+}
+.abanoub table tr td:nth-of-type(2){
+    width: 26px;
+    padding-top: 10px;
+}
+.container_categories{
+    width: 70%;
+    margin: auto;
+}
+
+.form_Add_Cateogry{
+    width: 80%;
+    margin: auto;
+}
+.form_Add_Cateogry caption{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.form_Add_Cateogry table{
+    width: 100%;
+}
+.form_Add_Cateogry table td{
+    padding-top: 15px;
+}
+.form_Add_Cateogry label{
+    display: inline-block;
+    width: 27%;
+    font-size: 22px;
+}
+.form_Add_Cateogry input{
+    width: 70%;
+    font-size: 20px;
+    border: none;
+    outline:none;
+    border-radius: 4px;
+    text-indent: 4px;
+    padding: 5px;
+    background: white;
+}
+::-webkit-input-placeholder{
+    color: black;
+}
+.form_Add_Cateogry td {
+    width: 100%;
+}
+.form_Add_Cateogry td .sp{
+    width: 13px;
+     margin-left: 76px;
+}
+.form_Add_Cateogry table .sp_s{
+    margin-left: 30px;
+}
+.form_Add_Cateogry td #yes,
+.form_Add_Cateogry td #no {
+    width: 63px;
+    margin-top: 15px
+}
+.submit_a{ 
+    width:23%;
+    float: left;
+    margin: auto;
+    margin-left:50%;
+    margin-top: 20px;
+    display: inline-block;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 21px;
+    text-transform: capitalize;
+    background: seagreen;
+    color: white;
+    cursor: pointer;
+}
+.submit_a input{
+   text-indent: 0px;
+   text-transform: capitalize;
+   cursor: pointer;
+   background: #0668a2;
+   position: relative;
+   width: 22%;
+}
+.mesage_to_show_what_happen .captialize{
+    text-transform: capitalize;
+    text-transform: capitalize;
+    color: green;
+    font-size: 41px;
+    margin-top: 51px;
+    display: inline-block;
+}
+.mesage_to_show_what_happen i{
+    font-size: 30px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: green;
+    border-radius: 50%;
+    line-height: 1.3;
+    text-indent: 3px;
+    color: white;
+}
+.categories h1{
+    font-weight: bolder;
+    margin: 40px 0px 40px 0px;
+}
+.categories .panelHead{
+    font-size: 33px;
+    text-align: start;
+    background: #e2dee6;
+    color: #221c7d;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+.categories .panelHead i{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.categories .panelBody{
+    text-align: start;
+    background: #C9C1C1;
+}
+.categories .panelBody .contain_cate{
+    padding-left: 5px;
+    overflow: hidden;
+    position: relative;
+  
+}
+.categories .panelBody .contain_cate h3{
+    text-transform: capitalize;
+    font-size: 25px;
+    color: forestgreen;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    
+}
+.categories .panelBody .contain_cate p{
+    text-transform: capitalize;
+    display: inline-block;
+    font-size: 19px;
+    color: cadetblue;
+}
+.categories .panelBody .contain_cate textarea{
+    border-radius: 5px;
+    width: 311px;
+    height: 70px;
+    margin-top: 18px;
+    text-indent: -7px;
+    padding: 6px;
+    text-transform: capitalize;
+    font-size: 16px;
+    background: rebeccapurple;
+    color: white;
+    resize: none;    
+}
+.categories .panelBody .contain_cate .visible_visibility,
+.categories .panelBody .contain_cate .hidden_visibility,
+.categories .panelBody .contain_cate .visible_comment,
+.categories .panelBody .contain_cate .hidden_comment,
+.categories .panelBody .contain_cate .visible_ads,
+.categories .panelBody .contain_cate .hidden_ads{
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: absolute;
+    bottom:  45px;
+    
+}
+.categories .panelBody .contain_cate .visible_visibility{
+     background: firebrick;
+     left: 340px;
+}
+.categories .panelBody .contain_cate .hidden_visibility {
+    background: cornflowerblue;
+    left: 340px;
+}
+.categories .panelBody .contain_cate .visible_comment {
+    background: blueviolet;
+    left: 422px;
+}
+.categories .panelBody .contain_cate .hidden_comment {
+    background: lightcoral;
+    left: 422px;
+}
+.categories .panelBody .contain_cate .hidden_ads{
+    background: deeppink;
+    left: 570px;
+}
+.categories .panelBody .contain_cate .visible_ads{
+    background: teal;
+    left: 570px;
+}
+.categories .panelBody .contain_cate hr{
+    border: 1px dashed;
+}
+.categories .panelBody .contain_cate:hover .hidden_buttons{
+     display: block;
+}
+.categories .panelBody .contian_cate .hidden_buttons{
+     display: inline-block;
+     position: absolute;
+     right: 10px;
+     top: 80px;
+     -webkit-transition: all .5s ease-in-out;
+     -o-transition: all .5s ease-in-out;
+     transition: all .5s ease-in-out;
+     display: none;
+}
+.categories .panelBody .contian_cate .hidden_buttons a{
+    float: right;
+    padding: 10px;
+    color: green;
+    background: black;
+    border-radius: 4px;
+    color: white;
+}
+.categories .panelBody .contian_cate .hidden_buttons a:first-of-type{
+    transition-delay: 1s;
+}
+.categories .panelBody .contian_cate .hidden_buttons a:nth-of-type(2){
+    transition-delay: 1.5s;
+}
+.categories .link{
+    text-transform: capitalize;
+    font-size: 21px;
+    background: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 8px;
+    float: left;
+}
+.categories .plus{
+    font-size: 18px;
+    padding-right: 10px;
+}
+/*this form selcet box*/
+.parent_customs_select_box ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    width: 170px;
+}
+
+.parent_customs_select_box{
+    position: relative;
+    width: 170px;
+    float: left;
+    margin-top: 15px;
+}
+.parent_customs_select_box .head li{
+    list-style: none;
+    padding-top: 14px;
+    font-size: 27px;
+    padding-left: 9px;
+    color: white;
+    text-transform: capitalize;
+    
+}
+.parent_customs_select_box .head{
+    background: green;
+    overflow: hidden;
+    width: 170px;
+}
+.parent_customs_select_box .head i{
+    float: right;
+    padding: 10px;
+    cursor: pointer;
+    background: #d6d3d3;
+    font-size: 22px;
+    padding-bottom: 14px;
+    padding-left: 10px;
+}
+.parent_customs_select_box .select{
+    position: absolute;
+    display: none;
+    margin-top: 4px;
+}
+.parent_customs_select_box .select ul{
+    background: #305063;
+}
+.parent_customs_select_box .select li {
+    padding: 10px;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 20px;
+}
+.special_contain{
+    width: 100%;
+    margin-left: 15%;
+    overflow: hidden;
+}
+.special_contain label{
+    display: inline-block;
+    width: 18%;
+    float: left;
+    margin-right: 20px;
+}
